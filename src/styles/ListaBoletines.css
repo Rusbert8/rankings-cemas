@@ -8,17 +8,17 @@ h2.encabezado_boletines{
 }
 
 h2 span.parentesis{
-    color: rgb(22, 22, 22);
+    color: #161616;
     font-style: italic;
 }
 
 h2 span.grado{
-    color: rgb(0, 0, 0);
+    color: #000000;
     font-style: italic;
 }
 
 h2 span.periodo{
-    color: rgb(45, 98, 168);
+    color: #2d62a8;
     font-style: italic;
 }
 
