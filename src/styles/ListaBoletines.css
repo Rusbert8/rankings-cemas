@@ -1,6 +1,6 @@
 /* ------------------------ Título del Boletín --------------------------- */
 
-main h2{
+h2.encabezado_boletines{
     color: var(--titulo_boletines);
     font-family:  'Trebuchet MS', sans-serif;
     margin-top: 3vh;
@@ -11,6 +11,7 @@ h2 span.parentesis{
     color: rgb(22, 22, 22);
     font-style: italic;
 }
+
 h2 span.periodo{
     color: rgb(45, 98, 168);
     font-style: italic;

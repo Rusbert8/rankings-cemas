@@ -77,7 +77,7 @@ export default  function ListaBoletines({ url }) {
 
     return (
         <>
-            <h2>
+            <h2 className="encabezado_boletines">
                 Lista de boletines de los estudiantes de
                 <span className="grado"> {ranking[0].curso} <span className="parentesis">(</span></span>
                 <span className="periodo">{ranking[0].periodo}<span className="parentesis">)</span></span>:
