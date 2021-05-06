@@ -83,9 +83,7 @@ export default  function ListaBoletines({ url }) {
                 <span className="periodo">{ranking[0].periodo}<span className="parentesis">)</span></span>:
             </h2>
             <hr />
-            <div className="list-group">
-                {ranking.map(estudiante => <ItemBoletin key={estudiante._id} estudiante={estudiante} />)}
-            </div>
+            {ranking.map(estudiante => <ItemBoletin key={estudiante._id} estudiante={estudiante} />)}
         </>
     )
 }
