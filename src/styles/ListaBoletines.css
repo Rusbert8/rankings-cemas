@@ -12,6 +12,11 @@ h2 span.parentesis{
     font-style: italic;
 }
 
+h2 span.grado{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
 h2 span.periodo{
     color: rgb(45, 98, 168);
     font-style: italic;
