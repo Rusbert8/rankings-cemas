@@ -80,7 +80,7 @@ export default  function ListaBoletines({ url }) {
             <h2>
                 Lista de boletines de los estudiantes de
                 <span className="grado"> {ranking[0].curso} <span className="parentesis">(</span></span>
-                <span>{ranking[0].periodo}<span className="parentesis">)</span></span>:
+                <span className="periodo">{ranking[0].periodo}<span className="parentesis">)</span></span>:
             </h2>
             <hr />
             <div className="list-group">
